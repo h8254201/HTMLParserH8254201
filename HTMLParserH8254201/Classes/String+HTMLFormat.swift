@@ -8,14 +8,8 @@
 
 import Foundation
 
-class HTMLParserH8254201{
-  func testFun() {
-    print("aaa")
-  }
-}
-
 extension String {
-    static func htmlFormat(from html: String?) -> NSMutableAttributedString {
+    static public func htmlFormat(from html: String?) -> NSMutableAttributedString {
         let htmlData = NSString(string: html ?? "").data(using: String.Encoding.utf8.rawValue)
         let options = [NSAttributedString.DocumentReadingOptionKey.documentType: NSAttributedString.DocumentType.html]
         
@@ -27,7 +21,7 @@ extension String {
         return attributedString
     }
     
-    static func htmlTagValue(_ value: String, tag: String, attributes: [String: String]?=nil) -> String {
+    static public func htmlTagValue(_ value: String, tag: String, attributes: [String: String]?=nil) -> String {
         if let attrs = attributes {
             var attrStr = ""
             for (k, v) in attrs {
@@ -39,7 +33,7 @@ extension String {
         return "<\(tag)>\(value)</\(tag)>"
     }
     
-    func htmlRender(_ data: [String: String],
+    public func htmlRender(_ data: [String: String],
                     symbol: (left: String, right: String) = ("{{", "}}")) -> String {
         var s = self
         for (key, value) in data {

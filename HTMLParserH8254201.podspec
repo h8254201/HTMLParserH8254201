@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTMLParserH8254201'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = '可以頗析HTML並顯示在View上'
 
 # This description is used to generate tags and improve search results.
