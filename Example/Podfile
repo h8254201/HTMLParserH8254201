@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HTMLParserH8254201_Tests' do
+  pod 'HTMLParserH8254201', :path => '../'
+  
+  
+end
