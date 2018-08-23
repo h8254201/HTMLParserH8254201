@@ -8,6 +8,11 @@
 
 import Foundation
 
+class HTMLParserH8254201{
+  func testFun() {
+    print("aaa")
+  }
+}
 
 extension String {
     static func htmlFormat(from html: String?) -> NSMutableAttributedString {
