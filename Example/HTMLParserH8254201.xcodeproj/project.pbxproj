@@ -15,12 +15,12 @@
 		0B1C81478F36591FA83163BF /* Pods-HTMLParserH8254201_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMLParserH8254201_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HTMLParserH8254201_Tests/Pods-HTMLParserH8254201_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1431A180DEC445F12C8FD2A7 /* Pods_HTMLParserH8254201_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTMLParserH8254201_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		320E29862E643BD066CC5B5F /* Pods-HTMLParserH8254201_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HTMLParserH8254201_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HTMLParserH8254201_Tests/Pods-HTMLParserH8254201_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		40B246111C4F855F61FCE410 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		40B246111C4F855F61FCE410 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* HTMLParserH8254201_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLParserH8254201_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A2800A629F20B65D0CFA69BB /* HTMLParserH8254201.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HTMLParserH8254201.podspec; path = ../HTMLParserH8254201.podspec; sourceTree = "<group>"; };
-		C70B7227E64A74F9D01A82E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A2800A629F20B65D0CFA69BB /* HTMLParserH8254201.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HTMLParserH8254201.podspec; path = ../HTMLParserH8254201.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C70B7227E64A74F9D01A82E9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

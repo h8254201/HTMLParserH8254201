@@ -1,0 +1,6 @@
+framework module HTMLParserH8254201 {
+  umbrella header "HTMLParserH8254201-umbrella.h"
+
+  export *
+  module * { export * }
+}
